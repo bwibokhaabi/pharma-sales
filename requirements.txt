@@ -1,0 +1,12 @@
+matplotlib
+pandas
+scikit_learn
+seaborn
+plotly
+jupyter
+dvc
+xgboost==0.90
+mlflow
+tensorflow
+prophet
+statsmodels
