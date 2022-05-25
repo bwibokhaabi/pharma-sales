@@ -1,0 +1,10 @@
+stages:
+  prepare-d:
+    cmd: scripts/cleaner.py -d "data/train.csv " -o data/prepared " python" scripts/cleaner.py
+      " data/clean_train.csv"
+  clean_test:
+    cmd: scripts/cleaner.py -d "data/test.csv " -o data/prepared " python" scripts/cleaner.py
+      " data/clean_test.csv"
+  clean_store:
+    cmd: scripts/cleaner.py -d "data/store.csv " -o data/prepared " python" scripts/cleaner.py
+      " data/clean_store.csv"
